@@ -54,5 +54,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lugar,20));
         mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        String Hola;
     }
 }
